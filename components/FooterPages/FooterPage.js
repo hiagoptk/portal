@@ -1,9 +1,11 @@
-import {FaMoon} from 'react-icons/fa'
+import {FaMoon} from 'react-icons/fa';
+import styles from '../../styles/FooterPage.module.css';
+
 
 const FooterPage = () => {
     return (
-        <div className="footer">
-            <p>Made with Love by Hiago Patrick <FaMoon className="moon"/></p>
+        <div className={styles.footer}>
+            <p>Made with Love by Hiago Patrick <FaMoon className={styles.moon}/></p>
         </div>
     );
 }
