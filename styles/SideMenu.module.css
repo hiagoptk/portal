@@ -8,7 +8,7 @@
 
     width: 100%;
     max-width: 420px;
-    visibility: visible;
+    visibility: hidden;
     height: 100vh;
     z-index: 1;
     top: 0;

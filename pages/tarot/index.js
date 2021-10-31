@@ -24,7 +24,7 @@ const Tarot = () => {
                         <label htmlFor="email-address">Email</label><br/>
                         <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""/>
                         <br/>
-                        <label htmlFor="department">Assunto</label><br/>
+                        <label htmlFor="department"> Assunto</label><br/>
                             <select name="department" id="department" required="">
                                 <option value="Select" selected="" disabled="">Leitura...</option>
                                 <option value="Leitura Geral">Leitura Geral</option>
@@ -39,7 +39,7 @@ const Tarot = () => {
                     <input className={styles.btnForm} type="submit" value="Send Message"/>
                 </form>
             </div>
-            <FooterPage />
+            <FooterPage  />
         </div>
     );
 }
