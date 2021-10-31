@@ -10,7 +10,7 @@ const HeaderPage = () => {
     return (
         <navbar className={styles.navBlack}>
             <nav className={styles.menu}>
-                <Link href="/" passHref><h3 className={styles.title}>Hiago <FaSun className="sun"/> Patrick</h3></Link>
+                <Link href="/" passHref><h3 className={styles.title}>Hiago <FaSun className={styles.sun}/> Patrick</h3></Link>
                 <button id="menuBtn" className={styles.show} ><FaBars/></button>
             </nav>
             <SideMenu id="aside"  />
