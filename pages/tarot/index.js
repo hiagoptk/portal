@@ -38,7 +38,7 @@ const Tarot = () => {
                         <br/>
                         <label htmlFor="department"> Assunto</label><br/>
                             <select name="department" id="department" required="">
-                                <option value="Select" selected="" disabled="">Leitura...</option>
+                                <option value="Select" defaultValue disabled="">Leitura...</option>
                                 <option value="Leitura Geral">Leitura Geral</option>
                                 <option value="Leituras de Amor">Leituras de Amor</option>
                                 <option value="Mandala de Ano Novo">Mandala de Ano Novo</option>
