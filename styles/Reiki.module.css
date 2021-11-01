@@ -22,6 +22,7 @@
 
 .main .textBox {
     text-align: center;
+    visibility: hidden;i
 }
 
 .title {
