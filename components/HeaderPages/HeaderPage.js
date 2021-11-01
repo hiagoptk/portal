@@ -20,11 +20,11 @@ const HeaderPage = () => {
     }
 
     return (
-        <navbar className={styles.navBlack}>
-            <nav className={styles.menu}>
+        <nav className={styles.navBlack}>
+            <div className={styles.menu}>
                 <Link href="/" passHref><h3 className={styles.title}>Hiago <FaSun className={styles.sun}/> Patrick</h3></Link>
                 <button id="menuBtn" onClick={handleShowClick} className={styles.show} ><FaBars/></button>
-            </nav>
+            </div>
             
             <div className={sideMenu ? styles.show : styles.hide }>
                 <div id="sideMenu" className={styles.asideMenu}>
@@ -38,7 +38,7 @@ const HeaderPage = () => {
                 </div>
             </div>
              
-        </navbar>
+        </nav>
     );
 };
 
