@@ -7,12 +7,24 @@ const Tarot = () => {
     return (
         <div className={styles.container}>
             <HeaderPage />
+            
             <div className={styles.main}>
+                
                 <div className={styles.head}>
-                    <h2 className={styles.title}>TAROT</h2>
+                    <h2 className={styles.title}>
+                        TAROT
+                    </h2>
+
                     <p className={styles.description}>
-                        Compreendendo a teia da vida que te rodeia.
+                        As vezes, tudo o que precisamos é de um mapa. Para tal, eu lhes apresento o Tarot.
                     </p>
+                    <p className={styles.description}>
+                        Uma ferramenta fantástica,  capaz de nos mostrar as principais inclinações do nosso futuro, os principais padrões do passado, e nossas influencias atuais mais fortes. 
+                    </p>
+                    <p className={styles.description}>
+                        Diante  de tais informações, conseguimos ter um discernimento maior e melhor acerca do que fazer pra alcancar nossos verdadeiros objetivos.
+                    </p>
+
                 </div>
                 
 
