@@ -1,0 +1,80 @@
+.container {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main {
+    height: 90%;
+    padding: 2rem;;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+
+}
+
+.main .textBox {
+    text-align: center;
+}
+
+.title {
+    color: #00a2ff;
+    font-size: 3rem;
+    font-family: "Jolly Lodger", cursive;
+}
+
+.description{
+    font-size: 2.2vmax;
+    text-align: justify;
+    padding-bottom: 10px;
+    color: antiquewhite;
+}
+
+
+
+.form {
+    width: 80vw;
+    max-width: 768px;
+    background-color: rgba(255, 255, 255, 0.199);
+    padding: 1rem;
+    margin-top: 20px;
+    font-family: 'Syne', sans-serif;
+    font-size: 0.9rem;
+    color: antiquewhite;
+    
+  }
+  
+  .form input,
+  .form select {
+    height: 25px;
+  }
+  
+  .form input,
+  .form select,
+  .form textarea {
+    width: 100%;
+    border: none;
+    background-color: rgba(19, 19, 19, 0.301);
+    color: antiquewhite;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .form fieldset {
+    border: none;
+    padding: 0;
+  }
+  
+  .form .btnForm {
+    color: antiquewhite;
+    background-color: #00a2ff;
+    border-style: none;
+    border-radius: 2px;
+  }
