@@ -1,4 +1,4 @@
-import {FaSun, FaBars, FaMoon, FaCode, FaPaintBrush, FaHandSparkles, FaJoint, FaHome, FaBrush, FaStar} from 'react-icons/fa'
+import {FaSun, FaBars, FaBroom, FaMoon, FaCode, FaPaintBrush, FaHandSparkles, FaJoint, FaHome, FaBrush, FaStar} from 'react-icons/fa'
 import {CgCardSpades} from 'react-icons/cg'
 import Link from 'next/link'
 
@@ -33,7 +33,7 @@ const HeaderPage = () => {
                     <p className={styles.itemMenu}><Link href="/tarot"passHref > Tarot  </Link><CgCardSpades/></p>
                     <p className={styles.itemMenu}><Link href="/" passHref>Artes </Link> <FaPaintBrush /> </p>
                     <p className={styles.itemMenu}><Link href="/reiki"passHref>Reiki </Link> <FaHandSparkles /> </p>
-                    <p className={styles.itemMenu}><Link href="/bruxaria" passHref>Bruxaria </Link> <FaStar /> </p>
+                    <p className={styles.itemMenu}><Link href="/bruxaria" passHref>Bruxaria </Link> <FaBroom /> </p>
                     <p className={styles.itemMenu}><Link href="/portifolio" passHref>Portifolio</Link> <FaCode /></p>
                 </div>
             </div>
