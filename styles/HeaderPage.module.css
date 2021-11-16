@@ -19,6 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+;
     
 }
 
@@ -52,7 +53,13 @@
 
 .show {
     visibility: visible;
-    
+}
+
+.menu button {    
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
 }
 
 .hide {
