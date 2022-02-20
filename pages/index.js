@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {FaGlassMartini} from "react-icons/fa"
-import HeaderPage from '../components/HeaderPages/HeaderPage'
+import {NavBar} from '../components/HeaderPages/NavBar'
 import FooterPage from '../components/FooterPages/FooterPage'
 
 export default function Home() {
@@ -12,9 +12,10 @@ export default function Home() {
         <title>Hiago Patrick </title>
         <meta name="description" content="Portal de Informações sobre Reiki, Tarot, Magia, Programação e Arte." />
         <meta charSet="utf-8"/>
-
       </Head>
-      <HeaderPage />
+
+      <NavBar />
+      
       <main className={styles.main}>
         
         <h1 className={styles.title}>

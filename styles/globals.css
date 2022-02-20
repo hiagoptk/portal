@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=Jolly+Lodger&family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Red+Rose:wght@400;700&display=swap');
+
 
 html,
 body {
@@ -18,10 +19,10 @@ a {
 }
 
 p {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Jolly Lodger', cursive
+  font-family: 'Red Rose', cursive;
 }
 
