@@ -54,7 +54,7 @@
 }
 
 .btnYellow {
-  background-color: #f3b600;
+  background-color: #dea003;
   width: 80px;
   height: 80px;
   padding: 3px;
@@ -78,7 +78,7 @@
 
   100% {
     opacity: 100%;
-    background-color: #f3b600;
+    background-color: #dea003;
   }
   
 }

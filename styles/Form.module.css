@@ -1,39 +1,95 @@
+.container {
+  height: 87vh;
+  overflow: hidden;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 80%;
+  padding: 10px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: justify;
+
+  animation: fade-in 3.8s;
+
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
 .form {
-    width: 80vw;
-    max-width: 768px;
-    background-color: rgba(255, 255, 255, 0.199);
-    padding: 1rem;
-    font-family: 'Syne', sans-serif;
-    font-size: 0.9rem;
-  
+  width: 80vw;
+  max-width: 768px;
+  background-color: rgba(255, 255, 255, 0.114);
+  padding: 1rem;
+  border-radius: 5px;
+
+  font-family: 'Syne', sans-serif;
+  font-size: 0.9rem;
+  text-align: left;
+
+  animation: show 3.5s;
+  animation-delay: 3.9;
+
+}
+
+.form label {
+  font-weight: 600;
+  padding-bottom: 3px;  
+}
+
+.form input,
+.form select {
+  height: 25px;
+}
+
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  border: none;
+  background-color: rgb(22, 1, 39);
+  color: antiquewhite;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Syne', sans-serif;
+
+}
+
+.form fieldset {
+  border: none;
+  padding: 0;
+}
+
+.form .btnForm {
+  color: antiquewhite;
+  background-color: #f8d300;
+  border-style: none;
+  border-radius: 2px;
+}
+
+
+@keyframes show {
+  0% {
+    opacity: 0;
   }
-  
-  .form input,
-  .form select {
-    height: 25px;
+  100% {
+    opacity: 100;
   }
-  
-  .form input,
-  .form select,
-  .form textarea {
-    width: 100%;
-    border: none;
-    background-color: rgba(19, 19, 19, 0.301);
-    color: antiquewhite;
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-family: 'Syne', sans-serif;
-  
-  }
-  
-  .form fieldset {
-    border: none;
-    padding: 0;
-  }
-  
-  .form .btnForm {
-    color: antiquewhite;
-    background-color: #6FCF97;
-    border-style: none;
-    border-radius: 2px;
-  }
+}
