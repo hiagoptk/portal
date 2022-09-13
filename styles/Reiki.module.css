@@ -1,44 +1,49 @@
 .container {
     width: 100vw;
     height: auto;
-    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-.main {
-    height: 90%;
-    padding: 2rem;;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 60px;
+.box {
+  width: 80%;
+  padding: 10px 0;
+  color: #e1e6e3;
 
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-.main .textBox {
-    text-align: center;
-    visibility: hidden;
+  text-align: justify;
+
+  animation: fade-in 3.8s;
+ 
+} 
+
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+  
 }
 
 .title {
-    color: #00a2ff;
-    font-size: 3rem;
-    font-family: "Jolly Lodger", cursive;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .description{
-    font-size: 2.2vmax;
-    text-align: justify;
-    padding-bottom: 10px;
-    color: antiquewhite;
+  font-size: 1.19rem;
+  text-align: justify;
 }
-
-
 
 .form {
     width: 80vw;

@@ -11,14 +11,29 @@
   
 .box {
   width: 80%;
+  padding: 10px 0;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   text-align: justify;
+
+  animation: fade-in 3.8s;
  
 } 
+
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+  
+}
 
 .head {
   display: flex;
@@ -40,45 +55,6 @@
 
 .description{
   font-size: 1.19rem;
-  text-align: left;
+  text-align: justify;
 }
 
-.form {
-  width: 80vw;
-  max-width: 768px;
-  background-color: rgba(255, 255, 255, 0.199);
-  padding: 1rem;
-  font-family: 'Syne', sans-serif;
-  font-size: 0.9rem;
-
-}
-
-.form input,
-.form select {
-  height: 25px;
-}
-
-.form input,
-.form select,
-.form textarea {
-  width: 100%;
-  border: none;
-  background-color: rgba(19, 19, 19, 0.301);
-  color: antiquewhite;
-  font-weight: bold;
-  margin-bottom: 10px;
-  font-family: 'Syne', sans-serif;
-
-}
-
-.form fieldset {
-  border: none;
-  padding: 0;
-}
-
-.form .btnForm {
-  color: antiquewhite;
-  background-color: #6FCF97;
-  border-style: none;
-  border-radius: 2px;
-}

@@ -2,6 +2,7 @@ import styles from '../../styles/Tarot.module.css'
 
 import {NavBar} from '../../components/HeaderPages/NavBar'
 import FooterPage from "../../components/FooterPages/FooterPage"
+import { FormTarot } from '../../components/Form/Form';
 
 const Tarot = () => { 
     return (
@@ -59,6 +60,7 @@ const Tarot = () => {
                     
 
                 </div>
+
 
             </div>
 

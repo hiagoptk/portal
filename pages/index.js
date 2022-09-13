@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import {NavBar} from '../components/HeaderPages/NavBar'
 import FooterPage from '../components/FooterPages/FooterPage'
@@ -23,13 +24,17 @@ export default function Home() {
         </div>
 
         <div className={styles.btnBox}>
-          <div className={styles.btnYellow}>
-           <h3>Tarot</h3>
-          </div> 
-
-          <div className={styles.btnBlue}>
-           <h3>Reiki</h3>
-          </div> 
+          <Link href={"/tarot"} passHref>
+            <div className={styles.btnYellow}>
+              <h3>Tarot</h3>
+            </div>
+          </Link>
+      
+          <Link href={"/reiki"} passHref>
+            <div className={styles.btnBlue}>
+              <h3>Reiki</h3>
+            </div>
+          </Link>
 
         </div>
       </div>
