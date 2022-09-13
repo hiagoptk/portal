@@ -33,7 +33,7 @@ const NavBar = () => {
                     <p className={styles.itemMenu}><Link href="/tarot"passHref > Tarot  </Link><CgCardSpades/></p>
                     <p className={styles.itemMenu}><Link href="/reiki"passHref>Reiki </Link> <FaHandSparkles /> </p>
                     <p className={styles.itemMenu}><Link href="/bruxaria" passHref>Bruxaria </Link> <FaBroom /> </p>
-                    <p className={styles.itemMenu}><Link href="/portifolio" passHref>Sobre Mim</Link> <FaCode /></p>
+                    <p className={styles.itemMenu}><Link href="/about" passHref>Sobre Mim</Link> <FaCode /></p>
                 </div>
             </div>
 
