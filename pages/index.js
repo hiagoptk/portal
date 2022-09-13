@@ -15,12 +15,23 @@ export default function Home() {
       <NavBar />
 
       <div className={styles.container}>
-        <main className={styles.box}> 
+        <div className={styles.box}> 
           
           <h1> Feliz encontro!</h1>
           <h3>Pressumo que esteja aqui pois tem desejos que quer realizar e dúvidas que precisa sanar. Farei o possível pra te ajudar!</h3>
           
-        </main>
+        </div>
+
+        <div className={styles.btnBox}>
+          <div className={styles.btnYellow}>
+           <h3>Tarot</h3>
+          </div> 
+
+          <div className={styles.btnBlue}>
+           <h3>Reiki</h3>
+          </div> 
+
+        </div>
       </div>
       <FooterPage />
  

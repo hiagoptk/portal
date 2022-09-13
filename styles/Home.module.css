@@ -12,8 +12,9 @@
 .box {
   width: 80%;
   height: auto;
-  padding: 2rem;
-  background-color: #ffffff32;
+  padding: 1.5rem;
+  margin-bottom: 5%;
+  background-color: #ffffff1d;
   border-radius: 5%;
   display: flex;
   flex-direction: column;
@@ -22,6 +23,53 @@
 
   text-align: justify;
 
+  animation: fade-in 3.5s;
+
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+    background-color: transparent;
+  }
+
+  50% {
+    opacity: 100;
+
+  }
+  
+}
+
+.btnBox {
+  width: 80%;
+  height: 5vh;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  text-align: justify;
+
+}
+
+.btnYellow {
+  background-color: #f3b600;
+  width: 15vh;
+  padding: 3px;
+  border-radius: 3px;
+  
+  text-align: center;
+}
+
+.btnBlue {
+  background-color: #0070f3;
+  width: 15vh;
+  padding: 3px;
+  border-radius: 3px;
+  
+  text-align: center;
 }
 
 
