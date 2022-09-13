@@ -1,40 +1,30 @@
 .container {
-  height: 100vh;
-  max-height: 100vh;
+  height: 87vh;
   overflow: hidden;
-  background-color: #1F1F1F;
   color: antiquewhite;
-
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+
 }
 
-.main {
+.box {
   width: 80%;
-  height: 100%;
-  padding: 2rem;;
-  flex: 1;
+  height: auto;
+  padding: 2rem;
+  background-color: #ffffff32;
+  border-radius: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  text-align: justify;
+
 }
 
 
-
-.title {
-  margin-top: 50px;
-  margin: 0;
-  line-height: 1.15;
-  font-size: 12vw;
-}
-
-
-.title,
-.description {
-  text-align: center;
-}
 
 .description {
   margin: 4rem 0 0 0;

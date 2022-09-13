@@ -1,12 +1,12 @@
 import styles from '../../styles/Reiki.module.css';
-import Headerpage from '../../components/HeaderPages/HeaderPage'
+import {NavBar} from '../../components/HeaderPages/NavBar'
 import FooterPage from '../../components/FooterPages/FooterPage'
 
 
 const Reiki = () => {
     return (
         <div className={styles.container}>
-            <Headerpage />
+            <NavBar />
             <div className={styles.main}>
                 <div className={styles.textBox}>
                     <h1 className={styles.title}>Reiki</h1>
