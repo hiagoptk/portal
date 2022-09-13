@@ -1,14 +1,16 @@
 import styles from "../../styles/Form.module.css"
 import { NavBar } from "../../components/HeaderPages/NavBar"
 import FooterPage from "../../components/FooterPages/FooterPage"
+import { FaRegArrowAltCircleLeft } from "react-icons/fa"
 
 const Contato = () => {
     return (
         <>
         <NavBar />
         <div className={styles.container}>
+            
             <div className={styles.box}>
-                <h3>Contato</h3>
+                <h3 className={styles.title}>Contato</h3>
                 <p>
                     Utilize o formulário abaixo para enviar um email solicitando maiores informações sobre a <b> Mentoria de Aprendizado de Tarot</b> 
                     ou sobre os <b>Tratamentos de Reiki</b>, bem como minha agenda para <i>marcar consultas e avaliações.</i>

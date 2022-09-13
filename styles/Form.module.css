@@ -33,6 +33,11 @@
   }
 }
 
+.title {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
 .form {
   width: 80vw;
   max-width: 768px;
