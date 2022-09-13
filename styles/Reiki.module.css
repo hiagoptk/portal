@@ -31,7 +31,6 @@
   100% {
     opacity: 100%;
   }
-  
 }
 
 .title {
@@ -45,42 +44,23 @@
   text-align: justify;
 }
 
-.form {
-    width: 80vw;
-    max-width: 768px;
-    background-color: rgba(255, 255, 255, 0.199);
-    padding: 1rem;
-    margin-top: 20px;
-    font-family: 'Syne', sans-serif;
-    font-size: 0.9rem;
-    color: antiquewhite;
-    
-  }
-  
-  .form input,
-  .form select {
-    height: 25px;
-  }
-  
-  .form input,
-  .form select,
-  .form textarea {
-    width: 100%;
-    border: none;
-    background-color: rgba(19, 19, 19, 0.301);
-    color: antiquewhite;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .form fieldset {
-    border: none;
-    padding: 0;
-  }
-  
-  .form .btnForm {
-    color: antiquewhite;
-    background-color: #00a2ff;
-    border-style: none;
-    border-radius: 2px;
-  }
+.btnBox {
+  padding: 10px 0;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btnForm, .btnWpp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.9rem;
+  width: 65px;
+  height: 65px;
+  border-radius: 50px;
+  background-color: rgb(226, 173, 0);
+}
+

@@ -57,6 +57,7 @@
   font-size: 1.19rem;
   text-align: justify;
 }
+
 .btnBox {
   padding: 10px 0;
   width: 80%;
@@ -74,6 +75,6 @@
   width: 65px;
   height: 65px;
   border-radius: 50px;
-  background-color: blue;
+  background-color: rgb(226, 173, 0);
 }
 

@@ -1,7 +1,9 @@
 import styles from '../../styles/Reiki.module.css';
 import { NavBar } from '../../components/HeaderPages/NavBar'
 import FooterPage from '../../components/FooterPages/FooterPage'
-
+import Link from "next/link";
+import { MdOutgoingMail } from "react-icons/md"
+import { FaWhatsapp } from "react-icons/fa"
 
 const Reiki = () => {
     return (
@@ -31,7 +33,21 @@ const Reiki = () => {
                         </p>
                     </div>
                     
-                    
+                    <div className={styles.btnBox}>
+                        <Link href={"/contato"} passHref>
+                            <div className={styles.btnForm}>
+                                 <MdOutgoingMail />
+                            </div> 
+                        </Link>
+                         
+                         
+                         <Link href={"/"} passHref>
+                            <div className={styles.btnWpp}>
+                                <FaWhatsapp />
+                            </div> 
+                        </Link>
+                    </div>
+
                 </div>
             </div>
             <FooterPage />
