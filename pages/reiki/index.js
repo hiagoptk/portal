@@ -4,6 +4,7 @@ import FooterPage from '../../components/FooterPages/FooterPage'
 import Link from "next/link";
 import { MdOutgoingMail } from "react-icons/md"
 import { FaWhatsapp } from "react-icons/fa"
+import { ActionBtnPages } from '../../components/ActionBtnPages/ActionBtnPages';
 
 const Reiki = () => {
     return (
@@ -33,21 +34,8 @@ const Reiki = () => {
                         </p>
                     </div>
                     
-                    <div className={styles.btnBox}>
-                        <Link href={"/contato"} passHref>
-                            <div className={styles.btnForm}>
-                                 <MdOutgoingMail />
-                            </div> 
-                        </Link>
-                         
-                         
-                         <Link href={"/"} passHref>
-                            <div className={styles.btnWpp}>
-                                <FaWhatsapp />
-                            </div> 
-                        </Link>
-                    </div>
-
+                    <ActionBtnPages />
+                    
                 </div>
             </div>
             <FooterPage />

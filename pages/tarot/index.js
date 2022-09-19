@@ -1,11 +1,7 @@
-import styles from '../../styles/Tarot.module.css';
-import Link from "next/link";
+import styles from '../../styles/Tarot.module.css'
 import { NavBar } from '../../components/HeaderPages/NavBar';
 import FooterPage from "../../components/FooterPages/FooterPage";
-import { FormTarot } from '../../components/Form/Form';
-
-import { MdOutgoingMail } from "react-icons/md"
-import { FaWhatsapp } from "react-icons/fa"
+import { ActionBtnPages } from '../../components/ActionBtnPages/ActionBtnPages';
 
 const Tarot = () => {
     return (
@@ -15,11 +11,11 @@ const Tarot = () => {
             <div className={styles.container}>
 
                 <div className={styles.box}>
-                    
+
                     <h2 className={styles.title}>
                         TAROT
                     </h2>
-                    
+
                     <div className={styles.description}>
 
                         <p>
@@ -28,7 +24,7 @@ const Tarot = () => {
                         </p><br></br>
 
                         <p>
-                            Atendo consultas relacionadas a <i>amor, trabalho, saúde e espiritualidade</i>. Através do tarot é possível observar e analisar qualquer aspecto de sua vida, e com essa análise em mãos, o tarot te mostra como é possível vc se tornar <b>o Maestro</b> da Orquestra de sua <b>própria vida</b>.
+                            Atendo consultas relacionadas a <i>amor, trabalho, saúde e espiritualidade</i>.Através do tarot é possível observar e analisar qualquer aspecto de sua vida, e com essa análise em mãos, o tarot te mostra como é possível vc se tornar <b>o Maestro</b> da Orquestra de sua <b>própria vida</b>.
 
                         </p><br></br>
 
@@ -59,20 +55,7 @@ const Tarot = () => {
 
                     </div>
 
-                    <div className={styles.btnBox}>
-                        <Link href={"/contato"} passHref>
-                            <div className={styles.btnForm}>
-                                 <MdOutgoingMail />
-                            </div> 
-                        </Link>
-                         
-                         
-                         <Link href={"/"} passHref>
-                            <div className={styles.btnWpp}>
-                                <FaWhatsapp />
-                            </div> 
-                        </Link>
-                    </div>
+                    <ActionBtnPages />
 
                 </div>
 
