@@ -55,10 +55,10 @@ const Tarot = () => {
 
                     </div>
 
-                    <ActionBtnPages />
+                    
 
                 </div>
-
+                <ActionBtnPages />
             </div>
 
             <FooterPage />

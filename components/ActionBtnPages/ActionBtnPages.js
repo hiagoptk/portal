@@ -15,7 +15,7 @@ const ActionBtnPages = () => {
                 </Link>
 
                 <Link href={"https://wa.me/c/5521996770949"} passHref>
-                    <div className={styles.btnWpp}>
+                    <div className={styles.btnCatalogo}>
                         <BiFoodMenu />
                     </div>
                 </Link>
