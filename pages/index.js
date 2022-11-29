@@ -30,6 +30,12 @@ export default function Home() {
             </div>
           </Link>
       
+          <Link href={"/bruxaria"} passHref>
+            <div className={styles.btnRed}>
+              <h3>Bruxaria</h3>
+            </div>
+          </Link>
+
           <Link href={"/reiki"} passHref>
             <div className={styles.btnBlue}>
               <h3>Reiki</h3>
