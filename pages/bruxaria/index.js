@@ -39,7 +39,7 @@ const Bruxaria = () => {
                         <p>
                             Você pode acessar o catálogo de serviços que ofereço atualmente clicando no botão amarelo abaixo, na
                             sessão Feitiçaria.
-                        </p>s
+                        </p>
                     </div>
                 </div>
 

@@ -15,7 +15,7 @@ const Tarot = () => {
                     <h2 className={styles.title}>
                         TAROT
                     </h2>
-
+ 
                     <div className={styles.description}>
 
                         <p>

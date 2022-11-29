@@ -30,6 +30,7 @@
 
 .title {
     color: antiquewhite;
+    cursor: pointer;
 }
 
 .menu {    
@@ -42,6 +43,7 @@
     justify-content: space-between;
     align-items: center;
 
+    cursor: pointer;
     
 }
 
@@ -132,7 +134,7 @@
     padding-top: 10px;
     color: antiquewhite;
 }
-
+ 
 .menu #menuBtn:hover {
     cursor: pointer;
 }

@@ -1,0 +1,142 @@
+.container {
+  height: auto;
+  overflow: hidden;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 80vw;
+  padding: 10px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: justify;
+
+  animation: fade-in 3.8s;
+
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  100% {
+    opacity: 100;
+
+  }
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.infoTitle {
+  text-align: left;
+}
+
+.description {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.pentacle {
+  font-size: 2.9rem;
+}
+
+.btnForm {
+  margin: 25px;
+}
+
+.btn {
+  width: 10rem;
+  height: 2rem;
+  background-color: rgb(226, 173, 0);
+  color: antiquewhite;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* form */
+
+.form {
+  width: 80vw;
+  max-width: 768px;
+  background-color: rgba(67, 4, 135, 0.114);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+
+  font-family: 'Syne', sans-serif;
+  font-size: 0.9rem;
+  text-align: left;
+
+  animation: show 3.5s;
+  animation-delay: 3.9;
+
+}
+
+.form label {
+  font-weight: 600;
+  padding-bottom: 3px;  
+  
+}
+
+.form input,
+.form select {
+  height: 35px;
+}
+
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  border: none;
+  background-color:  rgba(35, 0, 63, 0);
+  color: antiquewhite;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Syne', sans-serif;
+  border-bottom: 1px solid goldenrod;
+  border-bottom-left-radius: 4% ;
+  border-bottom-right-radius: 4% ;
+}
+
+.form label {
+  font-size: 1.2rem;
+}
+
+.form fieldset {
+  border: none;
+  padding: 0;
+}
+
+.form .btnAgree {
+  color: antiquewhite;
+  background-color: #10a803;
+  border-style: none;
+  border-radius: 3px;
+}
+
+
+@media (min-width: 600px) {
+
+  .container {
+    height: 87vh;
+  }
+
+  .box {
+    width: 60%;
+    max-width: 800px ;
+  }
+}

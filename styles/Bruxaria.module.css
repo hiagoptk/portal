@@ -49,3 +49,15 @@
 .pentacle {
   font-size: 2.9rem;
 }
+
+@media (min-width: 600px) {
+
+  .container {
+    height: 87vh;
+  }
+
+  .box {
+    width: 60%;
+    max-width: 800px ;
+  }
+}

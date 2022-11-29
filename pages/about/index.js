@@ -14,18 +14,18 @@ const About = () => {
         <NavBar />
         <div className={styles.container}>
             <div className={styles.box}>
+                <>
                 <h3 className={styles.title}>Hiago Patrick</h3>
                 <Image 
                     src={"/perfil.jpg"} 
                     alt={"Foto de Perfil"} 
-                    width={1000}
-                    height={1000}
+                    width={500}
+                    height={500}
                     className={styles.imgPerfil}
                 />
                 <h4>27 anos | Rio de Janeiro - RJ</h4>
-            </div>
-
-            <div className={styles.description}>
+                </>
+                <div className={styles.description}>
                 <p>
                 No caminho da espíritualidade desde muito novo, aprendi cedo que essa 
                 era a trilha que eu queria seguir pra minha vida. Lembro 
@@ -88,6 +88,10 @@ const About = () => {
 
             </div>
 
+
+            </div>
+
+ 
             <div className={styles.social}>
                 <Link href={"https://www.instagram.com/azebeni/"} passHref>
                     <div className={styles.btnInsta} >

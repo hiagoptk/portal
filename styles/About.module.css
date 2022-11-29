@@ -1,12 +1,12 @@
-.container {
+.container { 
     height: auto;
+    width: 100vw;
     overflow: hidden;
     color: antiquewhite;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
+    justify-content: center;}
 
 .box {
     width: 80%;
@@ -31,7 +31,7 @@
 }
 
 .description {
-    font-size: 1.19rem;
+    font-size: 1rem;
     text-align: justify;
 
     width: 80%;
@@ -50,6 +50,8 @@
 
 .imgPerfil {
     border-radius: 10%;
+    max-width: 200px;
+    height: auto;
 }
 
 .social {
@@ -74,6 +76,8 @@
 
     font-size: 2rem;
 
+    cursor: pointer;
+
 }
 
 
@@ -88,3 +92,15 @@
     }
 
 }
+
+
+@media (min-width: 600px) {
+
+  
+    .box {
+      width: 60%;
+      max-width: 800px ;
+      height: auto;
+
+    }
+  }
